@@ -24,12 +24,12 @@ const members = [
     membership: "silver", // can borrow 2 books
   },
   {
-    id: 3,
+    id: 4,
     firstName: "Reem",
     lastName: "AlHasawi",
     slug: "reem-alhasawi",
     currentlyBorrowedBooks: [],
-    membership: "platinum", // can borrow 2 books
+    membership: "platinum", // can borrow 5 books
   },
   {
     id: 5,
