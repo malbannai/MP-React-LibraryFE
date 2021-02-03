@@ -3,8 +3,16 @@ const members = [
     id: 1,
     firstName: "Aziz",
     lastName: "AlSaffar",
-    slug: "aziz-alSaffar",
-    borrowedBooks: [8],
+    slug: "aziz-alsaffar",
+    currentlyBorrowedBooks: [3],
+    membership: "gold", // can borrow 3 books
+  },
+  {
+    id: 2,
+    firstName: "Hashim",
+    lastName: "Behbehani",
+    slug: "hashim-behbehani",
+    currentlyBorrowedBooks: [5],
     membership: "gold", // can borrow 3 books
   },
   {
@@ -12,7 +20,7 @@ const members = [
     firstName: "Alhamza",
     lastName: "Abdulmonem",
     slug: "alhmaza-bdulmonem",
-    borrowedBooks: [9, 12],
+    currentlyBorrowedBooks: [1, 2],
     membership: "silver", // can borrow 2 books
   },
   {
@@ -20,7 +28,7 @@ const members = [
     firstName: "Laila",
     lastName: "AlKandery",
     slug: "laila-alkandery",
-    borrowedBooks: [11, 25],
+    currentlyBorrowedBooks: [7, 8],
     membership: "platinum", // can borrow 5 books
   },
 ];
